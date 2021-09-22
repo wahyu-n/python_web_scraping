@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  db:
+    container_name: db_postgres
+    image: postgres:latest
+    environment: 
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=username
+      - POSTGRES_DB=db_webscraping
+    
+  app:
+    container_name: scraping-app
+    build: .
+    depends_on: 
+      - db
