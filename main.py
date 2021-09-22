@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import sys
 
-from web_scraping.web_scraping import scraper, transformer, writer, reader
+from web_scraping import scraper, transformer, writer, reader
 
 
 URL = "https://id.wikipedia.org/wiki/Daftar_orang_terkaya_di_Indonesia"
