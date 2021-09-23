@@ -2,14 +2,14 @@
 ETL data orang terkaya di Indonesia dari website menggunakan `Python - PostgreSQL - Docker`
 
 ### Website
-- URL : (https://id.wikipedia.org/wiki/Daftar_orang_terkaya_di_Indonesia)
+- URL : https://id.wikipedia.org/wiki/Daftar_orang_terkaya_di_Indonesia
 
 ### Requirements
 - Python
 - Docker
 
 ### How to Run
-- Build docker image : ```docker-compose -f docker-compose.yml build```
+- Build docker image : `docker-compose -f docker-compose.yml build`
 - Menjalankan aplikasi : `docker-compose -f docker-compose.yml up`
 - Mematikan aplikasi : `docker-compose -f docker-compose.yml down`
 
